@@ -1,7 +1,7 @@
 //import the scanner package to input values
 import java.util.Scanner;
 
-public class Prog04 {
+public class prime_number {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);		//create an object to use the scanner
 		
