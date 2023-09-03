@@ -1,4 +1,4 @@
-public class Prog03 {
+public class type_casting {
 	public static void main(String[] args) {
 		int a, b = 2, c;	//variable initialization 
 		a = 4;				// assigned initialization
