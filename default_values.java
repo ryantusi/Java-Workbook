@@ -1,6 +1,6 @@
 //declaring global variables of different data types to see their default values
 
-public class Prog02 {
+public class default_values {
 	static byte b;
 	static short s;
 	static int i;
