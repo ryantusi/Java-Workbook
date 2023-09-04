@@ -25,7 +25,7 @@ public class array_manipulation {
 		rearr[9] = 10;
 		System.out.println("after resize: ");
     
-		//printing array with function
+		//printing array with function without loop
 		System.out.println(Arrays.toString(rearr));
 	}
 }
