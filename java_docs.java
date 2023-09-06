@@ -7,7 +7,7 @@
  *
  */
 
-public class Prog14 { 
+public class java_docs { 
 	/**
 	 * This program is for java exercise book to check javadoc and view in web browser
 	 * @param args
