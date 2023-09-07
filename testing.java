@@ -22,6 +22,7 @@ public class testing {
 
 //create a class
 class test{
+	//class method
 	int test(int i){
 		return i;
 	}
