@@ -3,7 +3,7 @@
 //import array package
 import java.util.Arrays;
 
-public class Prog19 {
+public class reverse_arrays {
 	public static void main(String[] args) {
     
 		//reversing a single dimension array
