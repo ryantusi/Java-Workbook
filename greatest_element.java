@@ -3,7 +3,7 @@
 //import array package
 import java.util.Arrays;
 
-public class Prog20 {
+public class greatest_element {
 	public static void main(String[] args) {
     //create a two-dimensional array and print it out
 		int[][] arr = {
