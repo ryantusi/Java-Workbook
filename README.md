@@ -1,7 +1,8 @@
 # Java-Workbook (Beginner Friendly)
                         ~Ryan Tusi  
                         
-Welcome to my Java Workbook repository, comprehensive resource for learning and mastering Java programming from the ground up. This repository is designed to help aspiring programmers, students, and enthusiasts like myself progress through their Java journey by providing a wide range of meticulously crafted solutions to exercises and problems that span from beginner to advanced levels. I believe in learning and preaching policy :) (Disclaimer: This is a workbook, basic fundamental knowledge on java concepts is required to do the exercises to build core foundation on java programming)
+Welcome to my Java Workbook repository, comprehensive resource for learning and mastering Java programming from the ground up. This repository is designed to help aspiring programmers, students, and enthusiasts like myself progress through their Java journey by providing a wide range of meticulously crafted solutions to exercises and problems that span from beginner to advanced levels. I believe in learning and preaching policy :) 
+(Disclaimer: This is a workbook, basic fundamental knowledge on java concepts is required to do the exercises to build core foundation on java programming)
 
 📚 Learning Path:
 Whether you're a novice looking to grasp the basics of Java or an experienced developer aiming to refine your skills, this repository has something for everyone. The structured learning path guides you through progressive challenges that cover fundamental concepts from beginner level like variables, loops .etc to intermediate and advanced levels like Data Structure and algorithms, Classes and Objects .etc.
@@ -14,7 +15,7 @@ Whether you're a novice looking to grasp the basics of Java or an experienced de
 
     > Gradual Difficulty Progression: The repository is organized into distinct folders representing different difficulty levels.
 
-    > Contributor-Friendly: We believe in the power of collaborative learning. If you have a unique solution or want to improve existing ones, feel free to contribute to the repository. Your contributions will be acknowledged and can help countless learners.
+    > Contributor-Friendly: I believe in the power of collaborative learning. If you have a unique solution or want to improve existing ones, feel free to contribute to the repository. Your contributions will be acknowledged and can help countless learners.
 
 🚀 Getting Started:
 To embark on your Java learning adventure, simply clone or fork this repository. It is really that simple.
