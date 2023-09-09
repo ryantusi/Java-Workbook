@@ -3,7 +3,7 @@
 //import scanner package
 import java.util.Scanner;
 
-public class Prog21 {
+public class days {
 	public static void main(String[] args) {
     //create scan object to take input
 		Scanner scan = new Scanner(System.in);
@@ -21,6 +21,7 @@ public class Prog21 {
 			System.out.println(year);
 			break;
 		case 2:
+			//to check leap year or not
 			if(year%4==0) {
 				System.out.println("Febraury - 29 days");
 				System.out.println(year + " (Leap Year)");
