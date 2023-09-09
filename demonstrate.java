@@ -22,7 +22,8 @@ class tester{
 	}
 }
 
-public class Prog22 {
+//main class (program)
+public class demonstrate {
 	public static void main(String[] args) {
 		//instantiating an object from the test class
 		tester ts = new tester();
