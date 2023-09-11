@@ -1,3 +1,5 @@
+// type casting of int to float or double
+
 public class type_casting {
 	public static void main(String[] args) {
 		int a, b = 2, c;	//variable initialization 
