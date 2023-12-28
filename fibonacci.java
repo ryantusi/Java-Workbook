@@ -1,29 +1,54 @@
-// Implementing Fibonacci series
+// Interesting Exercise to print Fibonacci series 
 
-public class fibonacci {
+import java.util.Scanner;
+
+public class Fibonacci {
 	public static void main(String[] args) {
-		int n = 1;
-		int fn;
-		int fn_1 = 1;
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Enter an int to find fact F(x): ");
+		int num = scan.nextInt();
+	
+		if(fact(num) == -1) {
+			System.out.println("F(" + num + ") is out of the range of int");
+		}else {
+			System.out.println("F(" + num + ") : " + fact(num));
+		}
+		System.out.println(Integer.MAX_VALUE);
+		System.out.println(Integer.MIN_VALUE);
+	}
+	
+	public static int fact(int num) {
+		int result = 0;
+		final int min = Integer.MIN_VALUE;
+		final int max = Integer.MAX_VALUE;
+		int fn_1 = 0;
 		int fn_2 = 1;
-		int nmax = 20;
-		int sum = 0;
-		double average;
+		int next;
+		boolean flag = true;
 		
-		System.out.println("The first " + nmax + " fibonacci numbers are: ");
-		
-		while(n <= nmax) {
-			System.out.print(fn_1 + ", ");
-			fn  = fn_1 + fn_2;
-			sum += fn;
-			fn_1 = fn_2;
-			fn_2 = fn;
-			n++;
+		if(num == 0) {
+			result = fn_2;
+		}else {
+			for(int i=1; i<=num; i++) {
+				if(max-fn_1 < fn_2) {
+					flag = false;
+					break;
+				}else {
+					next = fn_1 + fn_2;
+					result = next;
+					fn_1 = fn_2;
+					fn_2 = next;
+					flag = true;
+				}
+			}
 		}
 		
-		System.out.println("The average is: ");
-		average = (double)sum/(double)nmax;
-		System.out.println(average);
+		if(flag) {
+			return result;
+		}else {
+			return -1;
+		}
 		
 	}
 }
