@@ -3,7 +3,7 @@
 //import scan package
 import java.util.Scanner;
 
-public class Prog18 {
+public class number_in_words {
 	public static void main(String[] args) {
     //object to scan
 		Scanner scan = new Scanner(System.in);
