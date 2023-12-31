@@ -11,6 +11,8 @@ Whether you're a novice looking to grasp the basics of Java or an experienced de
 
     > Diverse Range of Problems: Explore an extensive collection of exercises carefully curated to cover the entire spectrum of Java programming. From simple "Hello, World!" programs to complex algorithmic challenges, you'll find solutions for every step of your learning journey.
 
+    > Level Classification: Problem sets are classified in 3 different levels - Level1 (Basic), Level2 (Beginner Friendly), and Level3 (Intermediate)
+
     > Explanations: Not so detailed but comments are added to hint you with what's going on inside the code.
 
     > Gradual Difficulty Progression: The repository is organized into distinct folders representing different difficulty levels.
